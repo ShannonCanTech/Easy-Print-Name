@@ -7,6 +7,7 @@ public class Main {
         String lastName = "Foster";
         String fullName = firstName + " " + lastName;
         System.out.println("Hello, my name is " + fullName + ".");
-        System.out.println("There are " + fullName.length() + " letters in my name.");
+        int lettersInName = firstName.length() + lastName.length();
+        System.out.println("There are " + lettersInName + " letters in my name.");
     }
 }
